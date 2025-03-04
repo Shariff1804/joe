@@ -1,18 +1,11 @@
-import java.util.Scanner;
+
 
 public class program{
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         
         
-        System.out.print("Enter first number: ");
-        int num1 = scanner.nextInt();
         
-        System.out.print("Enter second number: ");
-        int num2 = scanner.nextInt();
-        
-        System.out.print("Enter third number: ");
-        int num3 = scanner.nextInt();
+        int num1=5,num2=4,num3=10;
         
         
         int sum = num1 + num2 + num3;
@@ -20,6 +13,6 @@ public class program{
         
         System.out.println("The sum of the three numbers is: " + sum);
         
-        scanner.close();
+    
     }
 }
